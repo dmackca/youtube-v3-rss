@@ -1,0 +1,15 @@
+{
+    "name": "dmackca/youtube-v3-rss",
+    "description": "YouTube RSS feed generator using v3 API",
+    "require": {
+        "xamin/handlebars.php": "0.10.*",
+        "madcoda/php-youtube-api": "~1.0",
+        "misd/linkify": "~1.1"
+    },
+    "authors": [
+        {
+            "name": "DMack",
+            "email": "contact@dmack.ca"
+        }
+    ]
+}

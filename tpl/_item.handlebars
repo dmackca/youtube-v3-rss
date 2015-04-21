@@ -1,0 +1,14 @@
+{{#each this}}
+  <item>
+    <title>{{this.title}}</title>
+    <link>{{this.link}}</link>
+    <description><![CDATA[
+    	<a href="{{this.link}}"><img src="{{image.url}}" height="{{image.h}}" width="{{image.w}}"></a>
+    		<br>
+    	<p>{{{this.description}}}</p>
+    	<p>Uploaded: {{date}}</p>
+    ]]></description>
+    <guid>{{this.guid}}</guid>
+    <pubDate>{{pubDate}}</pubDate>
+  </item>
+{{/each}}
